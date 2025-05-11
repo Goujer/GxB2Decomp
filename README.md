@@ -510,7 +510,7 @@ sequenceDiagram
     "gate_host": "xuemeih5gate.carolgames.com",
     "log_url": "http://xuemeih5back.carolgames.com:80/log",
     "gate_port": 20210,
-    "player_id": [PLAYER ID],
+    "player_id": "[PLAYER ID]",
     "uid": "3354405055",
     "wb_port": 20212,
     "last_time": 1746965679,
