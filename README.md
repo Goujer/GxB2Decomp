@@ -3,6 +3,12 @@ Full decompilation of the game Girls x Battle 2, as EOL is approaching, for ~~ar
 
 ---
 
+# Disclaimer
+
+*This content is provided for educational and research purposes only. The author does not condone or encourage unauthorized access, distribution, or use of proprietary or confidential material. All responsibility for how this information is used lies solely with the user.*
+
+---
+
 # General infos
 
 Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it to make a private server out of it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find a unity project of the game, the decompiled native code library of the game (may be from the lua code itself), and infos in this readme aswell. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder. The manifest for iOS assets is also present in case you want to take a look, they are slighlt different, probably adjustments for the platform.
@@ -22,7 +28,7 @@ You can find the project in the [unity](https://github.com/Escartem/GirlsXBattle
 
 ## Lua code
 
-This is the entire source code of the game, located in the [lua](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua) folder, while containing the code it does contains a few worth nothing elements that are mentionned later on this section.
+This is the entire source code of the game, located in the [lua](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua) folder, while containing the code it does contains a few worth nothing elements that are mentionned later on this section. Also there a bat file in it at [/lua/app/common/tables](https://github.com/Escartem/GxB2Decomp/tree/master/lua/app/common/tables/del.bat) for some reason.
 
 ![image](https://github.com/user-attachments/assets/26590ab6-4f0f-4de8-8540-8650c22eebc7)
 
