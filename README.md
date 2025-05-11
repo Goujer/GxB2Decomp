@@ -57,6 +57,10 @@ The game have a total of 6250 protos made using protobuf, you can find their def
 
 ![image](https://github.com/user-attachments/assets/02755a35-897f-4044-aac5-e371bdfc87e8)
 
+## Version manifests
+
+Lastly you have 2 json files in the root folder containing the version manifests of all the assets, these are the latest versions for iOS and Android by the time this was made, they contain every single asset the games download at first start (or when updating)
+
 ---
 
 # Communications with server
