@@ -1,0 +1,272 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1672608459730077
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4803088885770421}
+  - component: {fileID: 114515259225776344}
+  m_Layer: 0
+  m_Name: activity_newbee_fund_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4803088885770421
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672608459730077}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114515259225776344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1672608459730077}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 2e3b8bd4832fd2e448ab77a8a1acc19a, type: 2}
+  mSprites:
+  - name: activity_newbee_bg
+    x: 2
+    y: 2
+    width: 696
+    height: 879
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_bg
+    x: 2
+    y: 883
+    width: 720
+    height: 765
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_icon
+    x: 700
+    y: 769
+    width: 76
+    height: 72
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_logo_de_de
+    x: 778
+    y: 769
+    width: 477
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_logo_en_en
+    x: 1422
+    y: 354
+    width: 485
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 8
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_logo_fr_fr
+    x: 1422
+    y: 2
+    width: 489
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 6
+    paddingBottom: 6
+  - name: activity_newbee_fund_popup_logo_ja_jp
+    x: 1257
+    y: 888
+    width: 461
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 10
+  - name: activity_newbee_fund_popup_logo_ko_kr
+    x: 1422
+    y: 710
+    width: 477
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund_popup_logo_zh_tw
+    x: 481
+    y: 1828
+    width: 461
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 10
+  - name: activity_newbee_fund3_popup_bg
+    x: 700
+    y: 2
+    width: 720
+    height: 765
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_fund3_popup_bg2
+    x: 944
+    y: 947
+    width: 301
+    height: 56
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_fund3_popup_logo_de_de
+    x: 465
+    y: 1650
+    width: 477
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund3_popup_logo_en_en
+    x: 1422
+    y: 532
+    width: 485
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 8
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund3_popup_logo_fr_fr
+    x: 1422
+    y: 178
+    width: 489
+    height: 174
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 6
+    paddingBottom: 6
+  - name: activity_newbee_fund3_popup_logo_ja_jp
+    x: 724
+    y: 1005
+    width: 461
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 32
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 10
+  - name: activity_newbee_fund3_popup_logo_ko_kr
+    x: 2
+    y: 1870
+    width: 477
+    height: 176
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 10
+    paddingRight: 6
+    paddingTop: 10
+    paddingBottom: 0
+  - name: activity_newbee_fund3_popup_logo_zh_tw
+    x: 2
+    y: 1650
+    width: 461
+    height: 218
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

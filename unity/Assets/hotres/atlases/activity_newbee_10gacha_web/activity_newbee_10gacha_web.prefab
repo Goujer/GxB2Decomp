@@ -1,0 +1,610 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1741150661567927
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4085491142004900}
+  - component: {fileID: 114711187817915991}
+  m_Layer: 0
+  m_Name: activity_newbee_10gacha_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4085491142004900
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741150661567927}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114711187817915991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1741150661567927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 51b0818ce31336d4f984e198e9ace9f7, type: 2}
+  mSprites:
+  - name: activity_newbee_giftbag_bg_xiangou
+    x: 1713
+    y: 483
+    width: 224
+    height: 58
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_giftbag_icon1
+    x: 1843
+    y: 151
+    width: 162
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 30
+    paddingRight: 32
+    paddingTop: 0
+    paddingBottom: 34
+  - name: activity_newbee_giftbag_icon2
+    x: 1843
+    y: 2
+    width: 178
+    height: 147
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 21
+    paddingTop: 1
+    paddingBottom: 33
+  - name: activity_newbee_giftbag_icon3
+    x: 1713
+    y: 543
+    width: 214
+    height: 165
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 9
+    paddingTop: 0
+    paddingBottom: 16
+  - name: activity_newbee_giftbag_icon4
+    x: 1787
+    y: 300
+    width: 224
+    height: 181
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_newbee_giftbag_item_bg
+    x: 2
+    y: 2
+    width: 633
+    height: 207
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_de_de
+    x: 597
+    y: 346
+    width: 556
+    height: 163
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_en_en
+    x: 1155
+    y: 346
+    width: 556
+    height: 161
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_fr_fr
+    x: 2
+    y: 383
+    width: 556
+    height: 161
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_ja_jp
+    x: 560
+    y: 511
+    width: 556
+    height: 155
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_ko_kr
+    x: 1155
+    y: 509
+    width: 556
+    height: 155
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 0
+  - name: newbee_10gacha_logo_zh_tw
+    x: 2
+    y: 546
+    width: 556
+    height: 154
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_de_de
+    x: 547
+    y: 754
+    width: 543
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_en_en
+    x: 1192
+    y: 260
+    width: 593
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_fr_fr
+    x: 637
+    y: 174
+    width: 601
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_ja_jp
+    x: 463
+    y: 1098
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_ko_kr
+    x: 924
+    y: 1096
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_1_zh_tw
+    x: 1385
+    y: 1010
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_de_de
+    x: 1105
+    y: 752
+    width: 543
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_en_en
+    x: 2
+    y: 297
+    width: 593
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_fr_fr
+    x: 1240
+    y: 88
+    width: 601
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_ja_jp
+    x: 2
+    y: 1046
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_ko_kr
+    x: 463
+    y: 1012
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_2_zh_tw
+    x: 924
+    y: 1010
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_de_de
+    x: 2
+    y: 702
+    width: 543
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_en_en
+    x: 597
+    y: 260
+    width: 593
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_fr_fr
+    x: 637
+    y: 88
+    width: 601
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_ja_jp
+    x: 1385
+    y: 924
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_ko_kr
+    x: 2
+    y: 960
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_3_zh_tw
+    x: 463
+    y: 926
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_de_de
+    x: 560
+    y: 668
+    width: 543
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_en_en
+    x: 2
+    y: 211
+    width: 593
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_fr_fr
+    x: 1240
+    y: 2
+    width: 601
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_ja_jp
+    x: 924
+    y: 924
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_ko_kr
+    x: 2
+    y: 874
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_4_zh_tw
+    x: 463
+    y: 840
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_de_de
+    x: 1118
+    y: 666
+    width: 543
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_en_en
+    x: 1240
+    y: 174
+    width: 593
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_fr_fr
+    x: 637
+    y: 2
+    width: 601
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_ja_jp
+    x: 1553
+    y: 838
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_ko_kr
+    x: 1092
+    y: 838
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_10gacha_tips_5_zh_tw
+    x: 2
+    y: 788
+    width: 459
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 54
+    paddingRight: 88
+    paddingTop: 0
+    paddingBottom: 0
+  - name: newbee_enter_icon
+    x: 1939
+    y: 483
+    width: 90
+    height: 86
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

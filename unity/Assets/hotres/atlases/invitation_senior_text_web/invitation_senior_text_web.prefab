@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1181975396056273
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4367518627149642}
+  - component: {fileID: 114121394451276397}
+  m_Layer: 0
+  m_Name: invitation_senior_text_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4367518627149642
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181975396056273}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114121394451276397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181975396056273}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: e4f17e5d67d9bc04f936f6f53e3f0d75, type: 2}
+  mSprites:
+  - name: invitation_senior_text_bg_qb_de_de
+    x: 922
+    y: 413
+    width: 88
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_bg_qb_en_en
+    x: 922
+    y: 489
+    width: 86
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 6
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_bg_qb_fr_fr
+    x: 922
+    y: 261
+    width: 96
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_bg_qb_ja_jp
+    x: 922
+    y: 337
+    width: 88
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_bg_qb_ko_kr
+    x: 1462
+    y: 339
+    width: 82
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 8
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_bg_qb_zh_tw
+    x: 1462
+    y: 263
+    width: 82
+    height: 74
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 8
+    paddingTop: 0
+    paddingBottom: 0
+  - name: invitation_senior_text_logo_rx_de_de
+    x: 546
+    y: 2
+    width: 524
+    height: 257
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 32
+    paddingTop: 19
+    paddingBottom: 5
+  - name: invitation_senior_text_logo_rx_en_en
+    x: 2
+    y: 261
+    width: 476
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 80
+    paddingTop: 22
+    paddingBottom: 0
+  - name: invitation_senior_text_logo_rx_fr_fr
+    x: 2
+    y: 2
+    width: 542
+    height: 257
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 0
+    paddingTop: 8
+    paddingBottom: 16
+  - name: invitation_senior_text_logo_rx_ja_jp
+    x: 1020
+    y: 263
+    width: 440
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 91
+    paddingTop: 0
+    paddingBottom: 22
+  - name: invitation_senior_text_logo_rx_ko_kr
+    x: 480
+    y: 261
+    width: 440
+    height: 263
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 92
+    paddingTop: 0
+    paddingBottom: 18
+  - name: invitation_senior_text_logo_rx_zh_tw
+    x: 2
+    y: 522
+    width: 440
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 25
+    paddingRight: 91
+    paddingTop: 2
+    paddingBottom: 20
+  - name: invitation_senior_text_logo_yq_de_de
+    x: 1582
+    y: 2
+    width: 462
+    height: 257
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 94
+    paddingTop: 0
+    paddingBottom: 24
+  - name: invitation_senior_text_logo_yq_en_en
+    x: 1582
+    y: 261
+    width: 444
+    height: 275
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 83
+    paddingTop: 6
+    paddingBottom: 0
+  - name: invitation_senior_text_logo_yq_fr_fr
+    x: 1072
+    y: 2
+    width: 508
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 24
+    paddingRight: 24
+    paddingTop: 0
+    paddingBottom: 22
+  - name: invitation_senior_text_logo_yq_ja_jp
+    x: 1010
+    y: 524
+    width: 434
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 93
+    paddingTop: 6
+    paddingBottom: 16
+  - name: invitation_senior_text_logo_yq_ko_kr
+    x: 2
+    y: 783
+    width: 434
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 93
+    paddingTop: 9
+    paddingBottom: 13
+  - name: invitation_senior_text_logo_yq_zh_tw
+    x: 444
+    y: 526
+    width: 434
+    height: 259
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 29
+    paddingRight: 93
+    paddingTop: 0
+    paddingBottom: 22
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

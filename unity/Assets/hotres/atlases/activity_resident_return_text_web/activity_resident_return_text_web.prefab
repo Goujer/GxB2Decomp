@@ -1,0 +1,285 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1647626343463454
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4870572031278651}
+  - component: {fileID: 114887107440629182}
+  m_Layer: 0
+  m_Name: activity_resident_return_text_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4870572031278651
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647626343463454}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114887107440629182
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1647626343463454}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 442d20fe7f43e3a49995141497524a89, type: 2}
+  mSprites:
+  - name: resident_return_grow_logo_de_de
+    x: 2
+    y: 555
+    width: 377
+    height: 301
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 6
+  - name: resident_return_grow_logo_en_en
+    x: 1017
+    y: 402
+    width: 377
+    height: 299
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 8
+  - name: resident_return_grow_logo_fr_fr
+    x: 638
+    y: 374
+    width: 377
+    height: 307
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_grow_logo_ja_jp
+    x: 1396
+    y: 402
+    width: 363
+    height: 297
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 10
+  - name: resident_return_grow_logo_ko_kr
+    x: 381
+    y: 683
+    width: 363
+    height: 301
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 6
+  - name: resident_return_grow_logo_zh_tw
+    x: 2
+    y: 858
+    width: 363
+    height: 299
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 14
+    paddingTop: 0
+    paddingBottom: 8
+  - name: resident_return_main_logo_de_de
+    x: 652
+    y: 175
+    width: 640
+    height: 197
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 34
+    paddingTop: 25
+    paddingBottom: 5
+  - name: resident_return_main_logo_en_en
+    x: 2
+    y: 165
+    width: 648
+    height: 187
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 35
+    paddingRight: 27
+    paddingTop: 11
+    paddingBottom: 29
+  - name: resident_return_main_logo_fr_fr
+    x: 2
+    y: 354
+    width: 634
+    height: 199
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 36
+    paddingRight: 40
+    paddingTop: 23
+    paddingBottom: 5
+  - name: resident_return_main_logo_ja_jp
+    x: 1414
+    y: 2
+    width: 604
+    height: 195
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 52
+    paddingRight: 54
+    paddingTop: 0
+    paddingBottom: 32
+  - name: resident_return_main_logo_ko_kr
+    x: 710
+    y: 2
+    width: 702
+    height: 171
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 0
+    paddingTop: 31
+    paddingBottom: 25
+  - name: resident_return_main_logo_zh_tw
+    x: 2
+    y: 2
+    width: 706
+    height: 161
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 4
+    paddingTop: 36
+    paddingBottom: 30
+  - name: resident_return_support_logo_de_de
+    x: 1294
+    y: 199
+    width: 384
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 2
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_support_logo_en_en
+    x: 1396
+    y: 701
+    width: 362
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_support_logo_fr_fr
+    x: 1680
+    y: 199
+    width: 366
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_support_logo_ja_jp
+    x: 746
+    y: 906
+    width: 352
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_support_logo_ko_kr
+    x: 1100
+    y: 904
+    width: 352
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  - name: resident_return_support_logo_zh_tw
+    x: 746
+    y: 703
+    width: 352
+    height: 201
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 14
+    paddingRight: 20
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

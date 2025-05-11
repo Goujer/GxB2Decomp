@@ -1,0 +1,506 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1135777450009845
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4134533217443206}
+  - component: {fileID: 114265605338376463}
+  m_Layer: 0
+  m_Name: wish_capsule_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4134533217443206
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135777450009845}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114265605338376463
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135777450009845}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: c3d509b0b7bcf894ca64d37772be933b, type: 2}
+  mSprites:
+  - name: wish_capsule_arrow_left
+    x: 1960
+    y: 190
+    width: 48
+    height: 87
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_arrow_right
+    x: 1960
+    y: 101
+    width: 49
+    height: 87
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_bg
+    x: 714
+    y: 2
+    width: 696
+    height: 337
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_bg2
+    x: 1412
+    y: 2
+    width: 546
+    height: 267
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_bg3
+    x: 714
+    y: 341
+    width: 671
+    height: 630
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_bg4
+    x: 1960
+    y: 66
+    width: 64
+    height: 33
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 14
+    borderBottom: 12
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_dot0
+    x: 1981
+    y: 318
+    width: 40
+    height: 8
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_dot1
+    x: 1981
+    y: 308
+    width: 40
+    height: 8
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_icon1
+    x: 2011
+    y: 153
+    width: 26
+    height: 25
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_icon2
+    x: 2011
+    y: 101
+    width: 34
+    height: 50
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_num
+    x: 1878
+    y: 308
+    width: 101
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_progress
+    x: 1412
+    y: 311
+    width: 448
+    height: 24
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_progress_bg
+    x: 1412
+    y: 271
+    width: 464
+    height: 38
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_select_bg
+    x: 2
+    y: 523
+    width: 665
+    height: 582
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_summon_bg
+    x: 2
+    y: 2
+    width: 710
+    height: 519
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_summon_text01_de_de
+    x: 1412
+    y: 337
+    width: 409
+    height: 205
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 4
+    paddingBottom: 6
+  - name: wish_capsule_summon_text01_en_en
+    x: 1387
+    y: 950
+    width: 393
+    height: 215
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 7
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_summon_text01_fr_fr
+    x: 1387
+    y: 741
+    width: 395
+    height: 207
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 8
+    paddingRight: 6
+    paddingTop: 0
+    paddingBottom: 8
+  - name: wish_capsule_summon_text01_ja_jp
+    x: 1387
+    y: 544
+    width: 401
+    height: 195
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 4
+    paddingTop: 5
+    paddingBottom: 15
+  - name: wish_capsule_summon_text01_ko_kr
+    x: 2
+    y: 1107
+    width: 391
+    height: 193
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 17
+  - name: wish_capsule_summon_text01_zh_tw
+    x: 669
+    y: 973
+    width: 391
+    height: 195
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 5
+    paddingBottom: 15
+  - name: wish_capsule_text_bg
+    x: 1878
+    y: 279
+    width: 157
+    height: 27
+    borderLeft: 80
+    borderRight: 80
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: wish_capsule_text01_de_de
+    x: 2
+    y: 1818
+    width: 374
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 2
+  - name: wish_capsule_text01_en_en
+    x: 390
+    y: 1474
+    width: 342
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 37
+    paddingTop: 3
+    paddingBottom: 1
+  - name: wish_capsule_text01_fr_fr
+    x: 2
+    y: 1474
+    width: 386
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: wish_capsule_text01_ja_jp
+    x: 378
+    y: 1818
+    width: 358
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 27
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_text01_ko_kr
+    x: 738
+    y: 1686
+    width: 328
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 58
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_text01_zh_tw
+    x: 734
+    y: 1342
+    width: 332
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 53
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_text02_de_de
+    x: 2
+    y: 1646
+    width: 374
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 12
+    paddingTop: 2
+    paddingBottom: 2
+  - name: wish_capsule_text02_en_en
+    x: 390
+    y: 1302
+    width: 342
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 37
+    paddingTop: 3
+    paddingBottom: 1
+  - name: wish_capsule_text02_fr_fr
+    x: 2
+    y: 1302
+    width: 386
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: wish_capsule_text02_ja_jp
+    x: 378
+    y: 1646
+    width: 358
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 27
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_text02_ko_kr
+    x: 738
+    y: 1514
+    width: 328
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 58
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_text02_zh_tw
+    x: 734
+    y: 1170
+    width: 332
+    height: 170
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 53
+    paddingTop: 4
+    paddingBottom: 0
+  - name: wish_capsule_tips_closeBtn
+    x: 1960
+    y: 2
+    width: 67
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

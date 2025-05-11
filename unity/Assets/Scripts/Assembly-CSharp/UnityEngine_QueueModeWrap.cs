@@ -1,0 +1,34 @@
+using System;
+using LuaInterface;
+using UnityEngine;
+
+public class UnityEngine_QueueModeWrap
+{
+	public static void Register(LuaState L)
+	{
+	}
+
+	private static void Push(IntPtr L, QueueMode arg)
+	{
+	}
+
+	private static bool CheckType(IntPtr L, int pos)
+	{
+		return false;
+	}
+
+	private static int get_CompleteOthers(IntPtr L)
+	{
+		return 0;
+	}
+
+	private static int get_PlayNow(IntPtr L)
+	{
+		return 0;
+	}
+
+	private static int IntToEnum(IntPtr L)
+	{
+		return 0;
+	}
+}

@@ -1,0 +1,740 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1234091040790775
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4615274181807705}
+  - component: {fileID: 114370993193708869}
+  m_Layer: 0
+  m_Name: fair_arena_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4615274181807705
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234091040790775}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114370993193708869
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1234091040790775}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 672b74ab0b7773f4497aeb78548b722f, type: 2}
+  mSprites:
+  - name: fair_arena_award_bg
+    x: 450
+    y: 1959
+    width: 278
+    height: 77
+    borderLeft: 80
+    borderRight: 80
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_awardbox_icon1
+    x: 1050
+    y: 1495
+    width: 120
+    height: 114
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 21
+    paddingRight: 21
+    paddingTop: 26
+    paddingBottom: 22
+  - name: fair_arena_awardbox_icon2
+    x: 922
+    y: 1495
+    width: 126
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 18
+    paddingTop: 20
+    paddingBottom: 16
+  - name: fair_arena_awardbox_icon3
+    x: 794
+    y: 1495
+    width: 126
+    height: 126
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 18
+    paddingRight: 18
+    paddingTop: 20
+    paddingBottom: 16
+  - name: fair_arena_awardbox_icon4
+    x: 947
+    y: 1888
+    width: 144
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 16
+    paddingBottom: 12
+  - name: fair_arena_bg_title01
+    x: 1172
+    y: 901
+    width: 151
+    height: 41
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_bg_title02
+    x: 1172
+    y: 858
+    width: 151
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_buff_select_bg
+    x: 2
+    y: 1959
+    width: 82
+    height: 82
+    borderLeft: 15
+    borderRight: 15
+    borderTop: 15
+    borderBottom: 15
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg1
+    x: 1004
+    y: 2
+    width: 1000
+    height: 777
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg2
+    x: 2
+    y: 1289
+    width: 180
+    height: 394
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 100
+    borderBottom: 250
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg3
+    x: 1004
+    y: 1019
+    width: 300
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg4
+    x: 1003
+    y: 1623
+    width: 300
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg5
+    x: 806
+    y: 1936
+    width: 99
+    height: 104
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 37
+    borderBottom: 45
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg6
+    x: 870
+    y: 1888
+    width: 75
+    height: 46
+    borderLeft: 25
+    borderRight: 25
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg7
+    x: 1004
+    y: 1211
+    width: 119
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg8
+    x: 2
+    y: 1685
+    width: 654
+    height: 272
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_bg9
+    x: 2006
+    y: 48
+    width: 32
+    height: 32
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 10
+    borderBottom: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_buff_bg
+    x: 1998
+    y: 781
+    width: 42
+    height: 42
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_buff_bg2
+    x: 721
+    y: 1888
+    width: 63
+    height: 63
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_fgx
+    x: 2040
+    y: 48
+    width: 2
+    height: 191
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 3
+    paddingRight: 3
+    paddingTop: 3
+    paddingBottom: 3
+  - name: fair_arena_explore_icon1
+    x: 658
+    y: 1888
+    width: 61
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 5
+    paddingTop: 4
+    paddingBottom: 4
+  - name: fair_arena_explore_icon2
+    x: 1062
+    y: 901
+    width: 71
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_explore_icon3
+    x: 1062
+    y: 826
+    width: 71
+    height: 73
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_get_hoe_bg
+    x: 184
+    y: 1289
+    width: 608
+    height: 363
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_award_btn
+    x: 376
+    y: 1959
+    width: 72
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 9
+  - name: fair_arena_main_battle_btn01
+    x: 658
+    y: 1654
+    width: 343
+    height: 232
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_battle_btn02
+    x: 794
+    y: 1289
+    width: 266
+    height: 204
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_bg01.jpg
+    x: 2
+    y: 2
+    width: 1000
+    height: 1285
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_bg02
+    x: 1062
+    y: 1252
+    width: 235
+    height: 36
+    borderLeft: 152
+    borderRight: 41
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_btn_text01_de_de
+    x: 1172
+    y: 817
+    width: 152
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 7
+  - name: fair_arena_main_btn_text01_en_en
+    x: 1139
+    y: 1815
+    width: 122
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: fair_arena_main_btn_text01_fr_fr
+    x: 1003
+    y: 1815
+    width: 134
+    height: 45
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: fair_arena_main_btn_text01_ja_jp
+    x: 1062
+    y: 781
+    width: 74
+    height: 43
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: fair_arena_main_btn_text01_ko_kr
+    x: 1062
+    y: 976
+    width: 71
+    height: 41
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 5
+  - name: fair_arena_main_btn_text01_zh_tw
+    x: 1263
+    y: 1815
+    width: 74
+    height: 43
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 4
+  - name: fair_arena_main_btn_text02_de_de
+    x: 1172
+    y: 944
+    width: 137
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 20
+    paddingRight: 22
+    paddingTop: 1
+    paddingBottom: 1
+  - name: fair_arena_main_btn_text02_en_en
+    x: 1172
+    y: 781
+    width: 161
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 9
+    paddingRight: 9
+    paddingTop: 1
+    paddingBottom: 1
+  - name: fair_arena_main_btn_text02_fr_fr
+    x: 1135
+    y: 980
+    width: 179
+    height: 34
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 1
+    paddingBottom: 1
+  - name: fair_arena_main_btn_text02_ja_jp
+    x: 1172
+    y: 1521
+    width: 119
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 32
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_btn_text02_ko_kr
+    x: 1125
+    y: 1211
+    width: 123
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 26
+    paddingRight: 30
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_btn_text02_zh_tw
+    x: 1172
+    y: 1483
+    width: 119
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 28
+    paddingRight: 32
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_btn01
+    x: 168
+    y: 1959
+    width: 126
+    height: 81
+    borderLeft: 35
+    borderRight: 40
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_btn02
+    x: 786
+    y: 1888
+    width: 82
+    height: 46
+    borderLeft: 15
+    borderRight: 44
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_icon01
+    x: 2006
+    y: 2
+    width: 37
+    height: 44
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: fair_arena_main_rank_btn
+    x: 730
+    y: 1953
+    width: 74
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 10
+    paddingTop: 1
+    paddingBottom: 1
+  - name: fair_arena_main_record_btn
+    x: 296
+    y: 1959
+    width: 78
+    height: 80
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 5
+    paddingTop: 3
+    paddingBottom: 7
+  - name: fair_arena_main_team_btn
+    x: 86
+    y: 1959
+    width: 80
+    height: 82
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 6
+    paddingRight: 4
+    paddingTop: 4
+    paddingBottom: 4
+  - name: fair_arena_text01_de_de
+    x: 1339
+    y: 1483
+    width: 623
+    height: 163
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 15
+    paddingBottom: 5
+  - name: fair_arena_text01_en_en
+    x: 1339
+    y: 1139
+    width: 657
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: fair_arena_text01_fr_fr
+    x: 1339
+    y: 960
+    width: 657
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: fair_arena_text01_ja_jp
+    x: 1062
+    y: 1318
+    width: 623
+    height: 163
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 17
+    paddingRight: 17
+    paddingTop: 15
+    paddingBottom: 5
+  - name: fair_arena_text01_ko_kr
+    x: 1339
+    y: 781
+    width: 657
+    height: 177
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 6
+    paddingBottom: 0
+  - name: fair_arena_text01_zh_tw
+    x: 1093
+    y: 1862
+    width: 543
+    height: 183
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 57
+    paddingRight: 57
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

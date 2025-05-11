@@ -1,0 +1,688 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1127199685522149
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4982394588626906}
+  - component: {fileID: 114833036761289579}
+  m_Layer: 0
+  m_Name: activity_recharge_lottery_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4982394588626906
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127199685522149}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114833036761289579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1127199685522149}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 95d1aeb02661d6e40bc7018accbb0d38, type: 2}
+  mSprites:
+  - name: activity_recharge_lottery_award_csmb
+    x: 575
+    y: 1452
+    width: 107
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_award_dcmb
+    x: 575
+    y: 1340
+    width: 107
+    height: 110
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_award_gain
+    x: 544
+    y: 1091
+    width: 134
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_award_normal
+    x: 575
+    y: 1227
+    width: 107
+    height: 111
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_bg
+    x: 2
+    y: 2
+    width: 741
+    height: 903
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_box_detail
+    x: 2
+    y: 907
+    width: 540
+    height: 322
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_box_detail_content
+    x: 1611
+    y: 1694
+    width: 324
+    height: 106
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_btn_close
+    x: 680
+    y: 1091
+    width: 62
+    height: 62
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_btn_draw
+    x: 1830
+    y: 1574
+    width: 208
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_content
+    x: 745
+    y: 798
+    width: 580
+    height: 595
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_countdown
+    x: 1395
+    y: 1874
+    width: 287
+    height: 35
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb
+    x: 1830
+    y: 1392
+    width: 199
+    height: 180
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_de_de
+    x: 2
+    y: 1801
+    width: 404
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 64
+    paddingRight: 52
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_en_en
+    x: 575
+    y: 1776
+    width: 444
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 48
+    paddingRight: 28
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_fr_fr
+    x: 1611
+    y: 1802
+    width: 386
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 61
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_ja_jp
+    x: 1782
+    y: 74
+    width: 262
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 129
+    paddingRight: 129
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_ko_kr
+    x: 1782
+    y: 2
+    width: 262
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 129
+    paddingRight: 129
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_csmb_zh_tw
+    x: 1782
+    y: 218
+    width: 232
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 143
+    paddingRight: 145
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_dcmb
+    x: 544
+    y: 907
+    width: 199
+    height: 182
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_dcmb_de_de
+    x: 408
+    y: 1848
+    width: 372
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 79
+    paddingRight: 69
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_dcmb_en_en
+    x: 1021
+    y: 1822
+    width: 372
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 74
+    paddingRight: 74
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_dcmb_fr_fr
+    x: 2
+    y: 1873
+    width: 304
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 107
+    paddingRight: 109
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_dcmb_ja_jp
+    x: 1684
+    y: 1874
+    width: 266
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 125
+    paddingRight: 129
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_dcmb_ko_kr
+    x: 1782
+    y: 290
+    width: 264
+    height: 68
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 125
+    paddingRight: 131
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_dcmb_zh_tw
+    x: 1782
+    y: 146
+    width: 232
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 143
+    paddingRight: 145
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_desc
+    x: 1160
+    y: 1680
+    width: 449
+    height: 140
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_icon_csmb
+    x: 575
+    y: 1564
+    width: 83
+    height: 90
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_icon_dcmb
+    x: 575
+    y: 1656
+    width: 80
+    height: 85
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_ljjl_de_de
+    x: 1545
+    y: 1362
+    width: 173
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 70
+    paddingRight: 68
+    paddingTop: 2
+    paddingBottom: 0
+  - name: activity_recharge_lottery_ljjl_en_en
+    x: 1887
+    y: 1362
+    width: 113
+    height: 22
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 99
+    paddingRight: 99
+    paddingTop: 2
+    paddingBottom: 8
+  - name: activity_recharge_lottery_ljjl_fr_fr
+    x: 1708
+    y: 738
+    width: 311
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 2
+    paddingBottom: 0
+  - name: activity_recharge_lottery_ljjl_ja_jp
+    x: 1720
+    y: 1362
+    width: 165
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 73
+    paddingRight: 73
+    paddingTop: 0
+    paddingBottom: 4
+  - name: activity_recharge_lottery_ljjl_ko_kr
+    x: 1900
+    y: 857
+    width: 117
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 97
+    paddingRight: 97
+    paddingTop: 0
+    paddingBottom: 2
+  - name: activity_recharge_lottery_ljjl_zh_tw
+    x: 1900
+    y: 889
+    width: 111
+    height: 28
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 101
+    paddingRight: 99
+    paddingTop: 0
+    paddingBottom: 4
+  - name: activity_recharge_lottery_logo_de_de
+    x: 1327
+    y: 1077
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_logo_en_en
+    x: 1327
+    y: 792
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_logo_fr_fr
+    x: 1257
+    y: 1395
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_logo_ja_jp
+    x: 2
+    y: 1516
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_logo_ko_kr
+    x: 684
+    y: 1395
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_logo_zh_tw
+    x: 2
+    y: 1231
+    width: 571
+    height: 283
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_mb
+    x: 1900
+    y: 790
+    width: 65
+    height: 65
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_mission
+    x: 1240
+    y: 2
+    width: 540
+    height: 734
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_mission_item
+    x: 657
+    y: 1680
+    width: 501
+    height: 94
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_option
+    x: 1782
+    y: 360
+    width: 154
+    height: 39
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_partner
+    x: 745
+    y: 2
+    width: 493
+    height: 794
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_progress1
+    x: 1708
+    y: 770
+    width: 220
+    height: 18
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_progress2
+    x: 1327
+    y: 1362
+    width: 216
+    height: 14
+    borderLeft: 5
+    borderRight: 5
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_res
+    x: 1782
+    y: 401
+    width: 166
+    height: 36
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: activity_recharge_lottery_tip
+    x: 1240
+    y: 738
+    width: 466
+    height: 52
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []

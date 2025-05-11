@@ -1,0 +1,662 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1346771235206483
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4640942088956443}
+  - component: {fileID: 114348254293768335}
+  m_Layer: 0
+  m_Name: gameAssistant_web
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4640942088956443
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346771235206483}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114348254293768335
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1346771235206483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 03f7db9a480b403690a4a83220213122, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  material: {fileID: 2100000, guid: 985658b68bd3fe34d9e43c90a447a0d9, type: 2}
+  mSprites:
+  - name: gameAssistant_bg_py_sm1
+    x: 1271
+    y: 346
+    width: 326
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_py_sm2
+    x: 1599
+    y: 282
+    width: 326
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_py_sm3
+    x: 1271
+    y: 138
+    width: 350
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_py_yz1
+    x: 354
+    y: 368
+    width: 294
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 56
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_py_yz2
+    x: 2
+    y: 296
+    width: 350
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_cc
+    x: 2
+    y: 624
+    width: 282
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 68
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_djs1
+    x: 354
+    y: 296
+    width: 190
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 160
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_djs12
+    x: 872
+    y: 536
+    width: 200
+    height: 190
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 150
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_fmj
+    x: 1570
+    y: 498
+    width: 252
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 98
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_gj
+    x: 1623
+    y: 210
+    width: 328
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 22
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_nd1
+    x: 1268
+    y: 490
+    width: 300
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 50
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_nd2
+    x: 956
+    y: 464
+    width: 310
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 40
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_nd3
+    x: 354
+    y: 440
+    width: 288
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 62
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_spgm
+    x: 652
+    y: 2
+    width: 617
+    height: 460
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_ss
+    x: 1597
+    y: 426
+    width: 316
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 34
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_xyls
+    x: 1623
+    y: 138
+    width: 350
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_xzsp
+    x: 2
+    y: 980
+    width: 224
+    height: 296
+    borderLeft: 150
+    borderRight: 50
+    borderTop: 120
+    borderBottom: 170
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_xzsp1
+    x: 547
+    y: 119
+    width: 100
+    height: 19
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_zslq1
+    x: 1623
+    y: 2
+    width: 350
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_zslq2
+    x: 1271
+    y: 2
+    width: 350
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_rc_zslq3
+    x: 2
+    y: 488
+    width: 350
+    height: 134
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_st_boss
+    x: 1271
+    y: 418
+    width: 324
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 26
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_st_ct
+    x: 1271
+    y: 274
+    width: 326
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 24
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_st_qd
+    x: 1599
+    y: 354
+    width: 324
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 26
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_tz_gmsp1
+    x: 276
+    y: 821
+    width: 230
+    height: 265
+    borderLeft: 150
+    borderRight: 50
+    borderTop: 230
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_tz_gmsp2
+    x: 2
+    y: 696
+    width: 272
+    height: 282
+    borderLeft: 220
+    borderRight: 40
+    borderTop: 245
+    borderBottom: 25
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_tz_gmsp3
+    x: 640
+    y: 536
+    width: 230
+    height: 284
+    borderLeft: 190
+    borderRight: 30
+    borderTop: 250
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_tz_shxy
+    x: 644
+    y: 464
+    width: 310
+    height: 70
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 40
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_tz_xykh
+    x: 2
+    y: 119
+    width: 543
+    height: 175
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs
+    x: 354
+    y: 512
+    width: 284
+    height: 307
+    borderLeft: 230
+    borderRight: 70
+    borderTop: 260
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_d
+    x: 2
+    y: 2
+    width: 648
+    height: 115
+    borderLeft: 10
+    borderRight: 10
+    borderTop: 60
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_gf1
+    x: 1074
+    y: 536
+    width: 182
+    height: 33
+    borderLeft: 70
+    borderRight: 70
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_gf12
+    x: 1662
+    y: 570
+    width: 141
+    height: 8
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_lc1
+    x: 546
+    y: 324
+    width: 36
+    height: 36
+    borderLeft: 20
+    borderRight: 20
+    borderTop: 10
+    borderBottom: 10
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_lc2
+    x: 1975
+    y: 2
+    width: 50
+    height: 50
+    borderLeft: 30
+    borderRight: 30
+    borderTop: 30
+    borderBottom: 30
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_bg_yxzs_lc3
+    x: 584
+    y: 324
+    width: 12
+    height: 30
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_tz_gmsp1
+    x: 1240
+    y: 648
+    width: 200
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_tz_gmsp2
+    x: 1460
+    y: 570
+    width: 200
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_tz_gmsp3
+    x: 1258
+    y: 562
+    width: 200
+    height: 84
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_tz_xz
+    x: 1824
+    y: 498
+    width: 202
+    height: 100
+    borderLeft: 10
+    borderRight: 70
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_yxzs_gl
+    x: 1074
+    y: 571
+    width: 164
+    height: 118
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_yxzs_glzc
+    x: 1074
+    y: 691
+    width: 164
+    height: 116
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 0
+    paddingTop: 0
+    paddingBottom: 0
+  - name: gameAssistant_btn_yxzs_py
+    x: 547
+    y: 230
+    width: 90
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 4
+    paddingRight: 2
+    paddingTop: 2
+    paddingBottom: 2
+  - name: gameAssistant_btn_yxzs_rc
+    x: 547
+    y: 140
+    width: 94
+    height: 88
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 0
+    paddingRight: 2
+    paddingTop: 4
+    paddingBottom: 4
+  - name: gameAssistant_btn_yxzs_tz
+    x: 1927
+    y: 304
+    width: 82
+    height: 94
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 7
+    paddingRight: 7
+    paddingTop: 1
+    paddingBottom: 1
+  - name: gameAssistant_btn_yxzs_zt
+    x: 1953
+    y: 210
+    width: 84
+    height: 92
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 5
+    paddingRight: 7
+    paddingTop: 1
+    paddingBottom: 3
+  - name: gameAssistant_icon_yxzs
+    x: 1925
+    y: 400
+    width: 78
+    height: 78
+    borderLeft: 0
+    borderRight: 0
+    borderTop: 0
+    borderBottom: 0
+    paddingLeft: 1
+    paddingRight: 1
+    paddingTop: 1
+    paddingBottom: 1
+  mPixelSize: 1
+  mReplacement: {fileID: 0}
+  mCoordinates: 0
+  sprites: []
