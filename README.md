@@ -1,11 +1,55 @@
 # GirlsXBattle2Decompilation
-Full decompilation of the game Girls x Battle 2, as EOL is approaching, for archival / private server purposes
+Full decompilation of the game Girls x Battle 2, as EOL is approaching, for ~~archival / private server~~ education purposes 🤓☝️
 
 ---
 
 # General infos
 
-Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it to make a private server out of it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find a unity project of the game, the decompiled native code library of the game (may be from the lua code itself), and infos in this readme aswell. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder.
+Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it to make a private server out of it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find a unity project of the game, the decompiled native code library of the game (may be from the lua code itself), and infos in this readme aswell. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder. The manifest for iOS assets is also present in case you want to take a look, they are slighlt different, probably adjustments for the platform.
+
+---
+
+# Elements in the repo & infos
+
+## Unity project
+
+You can find the project in the [unity](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity) folder, note that the project is not ready to run, you will need to make some modifications and properly integrate the lua code in order to launch it correctly, but the repo does contains everything required for the full game. Some notable places bellow :
+- [C# Scripts](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/unity/Assets/Scripts/Assembly-CSharp), likely unity standard code and not necessarily related to the game
+- [hotres](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres), everything in the base folder is for the boot menu of the game, everything beyond (downloaded assets) are in this folder
+- [hero web](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres/spine/hero_web), biggest folder of the project, probably 80% of it, contains the characters and their textures, animations, etc
+
+![image](https://github.com/user-attachments/assets/90400356-f60f-4749-b6f0-2ef63062603e)
+
+## Lua code
+
+This is the entire source code of the game, located in the [lua](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua) folder, while containing the code it does contains a few worth nothing elements that are mentionned later on this section.
+
+![image](https://github.com/user-attachments/assets/26590ab6-4f0f-4de8-8540-8650c22eebc7)
+
+## libxinyoudi
+
+This is the decompilation of the .so library found in the apk file, because the unity assets within the apk does not contain any major code, so it can be assumed it is located here. The decompilation was made pretty quickly mostly because i'm confident the lua code is the origin of the file so it can likely be ignored. Especially since the game codename is xinyoudi, GxB being the commercial name. Inside the folder you will have :
+- [the decompiled C code](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.c) and it's [matching header](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.h)
+- [the extracted strings](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/libxinyoudi/strings) as they represent most of the file, you have both the raws strings and an attempt at sorting and cleaning them into json
+- [all the functions within the lib](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/libxinyoudi/functions)
+
+![image](https://github.com/user-attachments/assets/afaee91d-d7b6-40ed-b3c1-2aeef6050234)
+
+## Data folder
+
+Like all games, this games have configs and translations, all of them are by default stored in lua tables in [/lua/data/tables](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua/data/tables) (and translation in their respective subfolder), I took the time to compile the data into SQLite databases for easier viewing and handling, inside the [data folder](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/data) you have data.db with all the game configs and one db file for each translation config. To match them, take any table in a translation database, you will have (most of the time) a pair (id, value), the value is the translation and the id corresponds to the matching element of the same id in the same table name in data.db. See example bellow :
+
+![image](https://github.com/user-attachments/assets/2cc1b338-50a8-4aa1-a969-173c16e84b66)
+
+![image](https://github.com/user-attachments/assets/c9a726f9-5d27-47df-a6ec-65d4badda452)
+
+![image](https://github.com/user-attachments/assets/409f0254-0bf3-45ea-8bce-803d124cd827)
+
+## Game protos
+
+The game have a total of 6250 protos made using protobuf, you can find their definitions in [/lua/data/protos/messages_pb.lua](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/lua/data/protos/messages_pb.lua), the naming would suggest it is related to the public messages broadcast channel explained later here but I doubt it as this is for within the game therefore using WSS and not HTTPS. I may just like the data tables do a clean version of the protos in appropriate files but for now you will have to deal with those as-is.
+
+![image](https://github.com/user-attachments/assets/02755a35-897f-4044-aac5-e371bdfc87e8)
 
 ---
 
@@ -526,3 +570,9 @@ sequenceDiagram
   }
 }
 ```
+
+---
+
+# Credits
+
+If you use in any way this project, any credit would be appreciated, feel free to also directly contribute here ! I don't have the time and energy to do a full server implementation (especially with 6k protos) but if any of you is, this is your base. And props to the dev of the game as well for making it~ I had fun playing GxB 1 and 2 over the last 7 years, farewell (* ￣︿￣)
