@@ -9,9 +9,45 @@ Full decompilation of the game Girls x Battle 2, as EOL is approaching, for ~~ar
 
 ---
 
+# Quick Access
+
+If you don't care about me yapping technical stuff, and just want specific files, see here :
+- [game data](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres)
+- [all animations (unity format)](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/animations)
+- [atlases (used for UI, events, etc.)](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/atlases)
+- [game font](https://github.com/Escartem/GxB2Decomp/blob/master/unity/Assets/hotres/fonts/common/Humming_hot.otf)
+- [game sfx, voicelines, music, etc.](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/sounds)
+- [spines (the live2d looking animations)](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/spine)
+- [characters splash arts (there's other stuff in this folder too)](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/textures/partner_picture_web)
+- [textures](https://github.com/Escartem/GxB2Decomp/tree/master/unity/Assets/hotres/textures)
+
+## Finding a character splash
+
+Quick tutorial on finding a splash art, in here I'll go with Sapphire 10* skin
+
+1. Download the translation database of your choice in /data folder, I'll take en_en.db
+2. Open it, I'll use [DB Browser for SQLite](https://sqlitebrowser.org/)
+3. Go to "Browse Data" tab and open the table named `partner_text_[language]`, for my case it's `partner_text_en_en`
+
+![image](https://github.com/user-attachments/assets/da750ab5-0b9e-4836-bd11-787a78fe9eed)
+ 
+4. Then, in the `skill_dialog` column, type your character name
+
+![image](https://github.com/user-attachments/assets/f549bab1-a419-4e50-9481-e69abb8168d4)
+
+5. In here, all the rows where the column `cv_name` is empty doesn't count. But for all the others, look at the column `id`, this is the id of your character, if there are multiple they represent each version. Since I need the 10* one, i'll pick the third id which is `751005`.
+6. Go to `/unity/Assets/hotres/textures/partner_picture_web/partner_picture_[YOUR ID].png`
+7. Done !
+
+![image](https://github.com/user-attachments/assets/100daa20-dd77-426d-9438-377c2239d379)
+
+8. For skins, it's a bit random, if the skin is a static image then it will be `/unity/Assets/hotres/textures/partner_picture_web/partner_picture_[FIRST ID]02.png` (with 02 added). If it's an animated skin then it's likely in spine folder
+
+---
+
 # General infos
 
-Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it to make a private server out of it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find a unity project of the game, the decompiled native code library of the game (may be from the lua code itself), and infos in this readme aswell. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder. The manifest for iOS assets is also present in case you want to take a look, they are slighlt different, probably adjustments for the platform.
+Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find various of elements, all described in this readme. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder.
 
 ---
 
@@ -19,23 +55,23 @@ Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like t
 
 ## Unity project
 
-You can find the project in the [unity](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity) folder, note that the project is not ready to run, you will need to make some modifications and properly integrate the lua code in order to launch it correctly, but the repo does contains everything required for the full game. Some notable places bellow :
+You can find the project in the [unity](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity) folder, note that the project is not ready to run, you will need to make some modifications and properly integrate the lua code in order to launch it correctly, but the repo does contains everything required for the full game (it's also 10gb so unity will take forever to open it 💀). Some notable places bellow :
 - [C# Scripts](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/unity/Assets/Scripts/Assembly-CSharp), likely unity standard code and not necessarily related to the game
-- [hotres](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres), everything in the base folder is for the boot menu of the game, everything beyond (downloaded assets) are in this folder
-- [hero web](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres/spine/hero_web), biggest folder of the project, probably 80% of it, contains the characters and their textures, animations, etc
+- [hotres](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres), everything in the base folder is for the boot menu of the game, everything in hotres are downloaded assets
+- [hero web](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/unity/Assets/hotres/spine/hero_web), biggest folder in hotres, probably 80% of it, contains the characters and their textures, animations, etc (the game data)
 
 ![image](https://github.com/user-attachments/assets/90400356-f60f-4749-b6f0-2ef63062603e)
 
 ## Lua code
 
-This is the entire source code of the game, located in the [lua](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua) folder, while containing the code it does contains a few worth nothing elements that are mentionned later on this section. Also there a bat file in it at [/lua/app/common/tables](https://github.com/Escartem/GxB2Decomp/tree/master/lua/app/common/tables/del.bat) for some reason.
+This is the entire source code of the game, located in the [lua](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua) folder, there's also a few worth nothing elements that are mentionned later on this section. Also there a bat file in it at [/lua/app/common/tables](https://github.com/Escartem/GxB2Decomp/tree/master/lua/app/common/tables/del.bat) for some reason.
 
 ![image](https://github.com/user-attachments/assets/26590ab6-4f0f-4de8-8540-8650c22eebc7)
 
 ## libxinyoudi
 
-This is the decompilation of the .so library found in the apk file, because the unity assets within the apk does not contain any major code, so it can be assumed it is located here. The decompilation was made pretty quickly mostly because i'm confident the lua code is the origin of the file so it can likely be ignored. Especially since the game codename is xinyoudi, GxB being the commercial name. Inside the folder you will have :
-- [the decompiled C code](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.c) and it's [matching header](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.h)
+This is the decompilation of the .so library found in the apk file, because the unity assets within the apk does not contain any major code, it can be assumed the code is here. The decompilation was made pretty quickly because I'm confident the lua code is the origin of this file so it can likely be ignored. Also since the game codename is xinyoudi, GxB being the commercial name. Inside the folder you will have :
+- [the decompiled C code](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.c) and its [matching header](https://github.com/Escartem/GirlsXBattle2Decompilation/blob/master/libxinyoudi/libxinyoudi.so.h)
 - [the extracted strings](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/libxinyoudi/strings) as they represent most of the file, you have both the raws strings and an attempt at sorting and cleaning them into json
 - [all the functions within the lib](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/libxinyoudi/functions)
 
@@ -43,7 +79,7 @@ This is the decompilation of the .so library found in the apk file, because the 
 
 ## Data folder
 
-Like all games, this games have configs and translations, all of them are by default stored in lua tables in [/lua/data/tables](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua/data/tables) (and translation in their respective subfolder), I took the time to compile the data into SQLite databases for easier viewing and handling, inside the [data folder](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/data) you have data.db with all the game configs and one db file for each translation config. To match them, take any table in a translation database, you will have (most of the time) a pair (id, value), the value is the translation and the id corresponds to the matching element of the same id in the same table name in data.db. See example bellow :
+Like all games, this game have configs and translations, all of them are by default stored in lua tables in [/lua/data/tables](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/lua/data/tables) (and translation in their respective subfolder), I took the time to compile the data into SQLite databases for easier viewing and handling, inside the [data folder](https://github.com/Escartem/GirlsXBattle2Decompilation/tree/master/data) you have data.db with all the game configs and one db file for each translation config. To match them, take any table in a translation database, you will have (most of the time) a pair (id, value), the value is the translation and the id corresponds to the matching element of the same id in the same table name in data.db. See example bellow :
 
 ![image](https://github.com/user-attachments/assets/2cc1b338-50a8-4aa1-a969-173c16e84b66)
 
