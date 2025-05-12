@@ -64,6 +64,10 @@ This is a follow-up to the previous one, still on Sapphire for the example
 
 ---
 
+End of quick acess, time to yap about technical stuff now :3c
+
+---
+
 # General infos
 
 Girls x Battle 2 announced closing on June 30th, 2025. As much as I would like to work on a private server for it, I do not have the time for it, so instead I decompiled the full game and documented it a bit to provide the data here freely for anyone with enough courage to work on it. The game was decompiled from the android version at **APK base version** `1.5.686`, and **in-game version** `1.5.728`. In this repo you will find various of elements, all described in this readme. The game is made in **Unity 2018.4.32f1** if you intend to open the project folder.
