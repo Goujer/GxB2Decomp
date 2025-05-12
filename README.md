@@ -53,7 +53,7 @@ This is a follow-up to the previous one, still on Sapphire for the example
 
 ![image](https://github.com/user-attachments/assets/4b8a09ba-3713-49dd-b11a-0073841f5a0c)
 
-4. Copy what's in the `skill_name` column, and convert the characters to latin alphabet, I'll use this [website](https://www.mdbg.net/chinese/dictionary) but google translate also works
+4. Copy what's in the `skill_dialog` column, and convert the characters to latin alphabet, I'll use this [website](https://www.mdbg.net/chinese/dictionary) but google translate also works
 
 ![image](https://github.com/user-attachments/assets/4e310aeb-3fb4-432d-81fd-337f69256551)
 
