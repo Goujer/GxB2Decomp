@@ -43,6 +43,25 @@ Quick tutorial on finding a splash art, in here I'll go with Sapphire 10* skin
 
 8. For skins, it's a bit random, if the skin is a static image then it will be `/unity/Assets/hotres/textures/partner_picture_web/partner_picture_[FIRST ID]02.png` (with 02 added). If it's an animated skin then it's likely in spine folder
 
+## Finding a character voicelines
+
+This is a follow-up to the previous one, still on Sapphire for the example
+
+1. Find the first id of the character you need, based on the previous tutorial, it will be `51001` for Sapphire
+2. Two cases possible, go to `/unity/Assets/hotres/sounds/partner_sound`, if you have a folder in the form `[ID]_web` (`51001_web` in my case), then you're done, everything is inside, if you don't, do the next steps
+3. Download the `ja_jp.db` translation file, and open the table `partner_text_ja_jp`, in `id` column type the character id
+
+![image](https://github.com/user-attachments/assets/4b8a09ba-3713-49dd-b11a-0073841f5a0c)
+
+4. Copy what's in the `skill_value` column, and convert the characters to latin, I'll use this [website](https://www.mdbg.net/chinese/dictionary) but google translate also works
+
+![image](https://github.com/user-attachments/assets/4e310aeb-3fb4-432d-81fd-337f69256551)
+
+5. The equivalent is `Zhou Yu`, now search for a folder that begins with it and end with `_web`, like `zhouyu_web`
+6. Voicelines are here ✨
+
+![image](https://github.com/user-attachments/assets/a4d51c9b-6e45-4a81-a130-5a0f2730aae9)
+
 ---
 
 # General infos
