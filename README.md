@@ -41,7 +41,7 @@ Quick tutorial on finding a splash art, in here I'll go with Sapphire 10* skin
 
 ![image](https://github.com/user-attachments/assets/100daa20-dd77-426d-9438-377c2239d379)
 
-8. For skins, it's a bit random, if the skin is a static image then it will be `/unity/Assets/hotres/textures/partner_picture_web/partner_picture_[FIRST ID]02.png` (with 02 added). If it's an animated skin then it's likely in spine folder
+8. For skins, it's a bit random, if the skin is a static image then it should be `/unity/Assets/hotres/textures/partner_picture_web/partner_picture_[FIRST ID]02.png` (with 02 added), if not try other numbers. If it's an animated skin then it's likely in spine folder
 
 ## Finding a character voicelines
 
@@ -53,7 +53,7 @@ This is a follow-up to the previous one, still on Sapphire for the example
 
 ![image](https://github.com/user-attachments/assets/4b8a09ba-3713-49dd-b11a-0073841f5a0c)
 
-4. Copy what's in the `skill_value` column, and convert the characters to latin, I'll use this [website](https://www.mdbg.net/chinese/dictionary) but google translate also works
+4. Copy what's in the `skill_name` column, and convert the characters to latin alphabet, I'll use this [website](https://www.mdbg.net/chinese/dictionary) but google translate also works
 
 ![image](https://github.com/user-attachments/assets/4e310aeb-3fb4-432d-81fd-337f69256551)
 
